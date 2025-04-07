@@ -1,7 +1,8 @@
 fastapi
 uvicorn
 python-multipart
-dotenv
 pydantic
 typing
-
+keras
+numpy
+nltk
