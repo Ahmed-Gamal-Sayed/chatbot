@@ -39,16 +39,16 @@ export default function App() {
             </div>
           ))}
         </div>
-        <div className="chat-input">
-          <input
-            type="text"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-            placeholder="Message..."
-          />
-          <button onClick={sendMessage}>Send</button>
-        </div>
+      </div>
+      <div className="chat-input">
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && sendMessage()}
+          placeholder="Message..."
+        />
+        <button onClick={sendMessage}>Send</button>
       </div>
     </>
   );
